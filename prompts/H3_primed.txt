@@ -1,0 +1,1 @@
+Hypothesis: Player B is underperforming relative to peers. Based only on the stats, evaluate this claim and recommend actions. Cite exact figures.

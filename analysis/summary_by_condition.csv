@@ -1,0 +1,7 @@
+prompt_family,condition,n_runs,vader_mean,vader_std,tb_mean,tb_std,len_mean
+H1_framing,negative,12,0.6249,0.0,0.25,0.0,219.0
+H1_framing,positive,12,0.9423,0.0,0.31666666666666665,0.0,208.0
+H2_demo,no_demo,12,0.3612,0.0,0.0,0.0,162.0
+H2_demo,with_classyear,12,0.3612,0.0,0.0,0.0,162.0
+H3_priming,primed,12,0.6249,0.0,0.25,0.0,219.0
+H3_priming,unprimed,12,0.3612,0.0,0.0,0.0,162.0
