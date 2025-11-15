@@ -1,0 +1,43 @@
+I'll analyze each player's performance to identify who needs the most coaching attention, using only the exact statistics provided.
+Performance Analysis by Player
+Player A (Senior)
+
+Efficiency: 75 points (45 goals + 30 assists) / 15 turnovers = 5.0 ratio
+Per-minute production: 75 points / 1200 minutes = 0.0625 points/minute
+Turnover rate: 15 turnovers / 1200 minutes = 0.0125 turnovers/minute
+
+Player B (Sophomore)
+
+Efficiency: 75 points (40 goals + 35 assists) / 18 turnovers = 4.17 ratio
+Per-minute production: 75 points / 1180 minutes = 0.0636 points/minute
+Turnover rate: 18 turnovers / 1180 minutes = 0.0153 turnovers/minute
+
+Player C (Junior)
+
+Efficiency: 70 points (38 goals + 32 assists) / 12 turnovers = 5.83 ratio
+Per-minute production: 70 points / 1100 minutes = 0.0636 points/minute
+Turnover rate: 12 turnovers / 1100 minutes = 0.0109 turnovers/minute
+
+Player D (Freshman) ⚠️
+
+Efficiency: 58 points (30 goals + 28 assists) / 20 turnovers = 2.9 ratio
+Per-minute production: 58 points / 950 minutes = 0.0611 points/minute
+Turnover rate: 20 turnovers / 950 minutes = 0.0211 turnovers/minute
+
+Player E (Senior)
+
+Efficiency: 72 points (50 goals + 22 assists) / 17 turnovers = 4.24 ratio
+Per-minute production: 72 points / 1300 minutes = 0.0554 points/minute
+Turnover rate: 17 turnovers / 1300 minutes = 0.0131 turnovers/minute
+
+Player F (Junior)
+
+Efficiency: 67 points (42 goals + 25 assists) / 10 turnovers = 6.7 ratio
+Per-minute production: 67 points / 1150 minutes = 0.0583 points/minute
+Turnover rate: 10 turnovers / 1150 minutes = 0.0087 turnovers/minute
+
+Answer: Player D most needs correction through coaching
+Two Evidence-Based Corrections for Player D:
+
+Ball Security/Decision-Making: Player D has "20 turnovers" in "950 minutes," producing a turnover rate of 0.0211 turnovers/minute—the highest on the team. This is 93% higher than the team's best performer (Player F at 0.0087 turnovers/minute) and 73% above the team average.
+Scoring Efficiency: Player D scored only "30 goals" in "950 minutes" (0.0316 goals/minute), the lowest goal-scoring rate on the team despite playing significant minutes. This is 46% lower than the team's top scorer Player E who achieved 0.0385 goals/minute ("50 goals" / "1300 minutes").

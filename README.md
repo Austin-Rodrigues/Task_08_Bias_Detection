@@ -1,34 +1,134 @@
-# Task_08_Bias_Detection
+# LLM Bias Detection – Task 08
 
-Controlled experiment to detect prompt-framing and demographic effects in LLM-generated data narratives.
+This repository contains a complete, reproducible controlled experiment designed to measure bias in Large Language Models (LLMs). The project evaluates how prompt framing, demographic cues, and hypothesis priming influence model-generated narratives when interpreting identical numerical data.
 
-## Quickstart
+This work was completed as part of the Applied Data Science Internship, Fall 2025.
 
+---
+
+# Project Overview
+
+LLMs can shift their interpretations based on subtle changes in wording. This experiment evaluates whether LLMs:
+
+- Change sentiment under positive vs negative framing  
+- Shift tone when demographic information is added  
+- Focus disproportionately on specific players under priming  
+- Maintain accurate citation of statistics  
+- Produce biased narratives despite identical input data
+
+A synthetic dataset of six anonymized players was used. A total of 18 LLM responses were collected from Claude 3.5 Sonnet.
+
+---
+
+# Hypotheses Tested
+
+### H1: Framing Bias  
+Does positive vs negative prompt wording change sentiment?
+
+### H2: Demographic Bias  
+Does including class year alter interpretation or recommendations?
+
+### H3: Priming Bias  
+Does stating "Player B is underperforming" change the model's evaluation?
+
+---
+
+# Key Findings
+
+| Hypothesis | Significant | Effect Size | Interpretation |
+|-----------|-------------|-------------|----------------|
+| H1 Framing | No (p = 0.2907) | Large (d = 0.993) | Tone strongly influenced sentiment |
+| H2 Demographics | No (p = 0.1788) | Very Large (d = -1.329) | Class year increased positivity |
+| H3 Priming | No (p = 0.3610) | Large (d = 0.841) | Priming shifted focus and tone |
+
+Factual Accuracy  
+12 claims extracted  
+0 incorrect  
+100 percent accuracy
+
+---
+
+# Repository Structure
+
+├── prompts/ # Prompt templates for all conditions
+├── src/
+│ ├── experiment_design.py # Builds prompt suite
+│ ├── run_experiment.py # Runs experiment (simulated or real API)
+│ ├── analyze_bias.py # Sentiment, polarity, length, mention analysis
+│ ├── validate_claims.py # Hallucination detection
+│ ├── create_visualizations.py # Generates plots
+├── data/ # Local anonymized CSV (ignored by git)
+├── results/ # Raw JSONL responses
+├── analysis/ # Scored outputs, summaries, plots
+│ ├── summary_by_condition.csv
+│ ├── all_runs_scored.csv
+│ ├── validation_report.txt
+│ ├── figures/
+├── Report_Nov15.md # Full detailed report
+└── README.md
+
+yaml
+Copy code
+
+---
+
+# How to Run the Experiment
+
+### 1. Create Virtual Environment
 ```bash
-python -m venv .venv && source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+python -m venv .venv
+.venv\Scripts\activate   # Windows
+source .venv/bin/activate  # Mac or Linux
+
+2. Install Dependencies
 pip install -r requirements.txt
+
+3. Generate Prompts
 python src/experiment_design.py
-# SIMULATION mode (no API keys needed):
+
+4. Run Experiment (Simulation Mode)
+No API keys required. Produces deterministic mock results.
 python src/run_experiment.py
+
+5. Analyze Bias
 python src/analyze_bias.py
+
+6. Validate Claims
 python src/validate_claims.py
-```
+Outputs will appear in the analysis directory.
 
-Artifacts will appear in `results/` and `analysis/`.
+Using Real LLM APIs (Optional)
+To run the experiment with actual Claude or GPT models:
+Set SIMULATION=false in the environment
+Implement the call_model adapter inside src/run_experiment.py
+Use environment variables for API keys
+Do not commit keys or data to git
 
-### Using Real APIs (optional)
-- Set `SIMULATION=false` and implement the `call_model(...)` adapter in `src/run_experiment.py` for each provider (Claude, GPT-4o, Gemini).
-- Keep `data/` **out of git** (blocked by `.gitignore`).
+Outputs Generated
+Analysis Artifacts
+summary_by_condition.csv
+all_runs_scored.csv
+statistical test results
+validation_report.txt
+claim_mismatches.json
 
-## Structure
-- `prompts/` — minimal-difference prompt templates (H1/H2/H3 conditions)
-- `src/` — scripts for building prompt suite, running experiments, analysis, and basic claim validation
-- `data/` — anonymized CSV (local only; **not committed**)
-- `results/` — raw JSONL logs (optionally ignored)
-- `analysis/` — scored outputs and summaries
-- `streamlit_app.py` — optional dashboard
+Visualizations
+sentiment_comparison.png
+length_comparison.png
+player_mentions_heatmap.png
 
-## Ethics & Compliance
-- No PII. Use Player A–F.
-- Record model, version, temperature, timestamps.
-- Report null results as valid outcomes.
+Ethics and Compliance
+No personally identifiable information included
+Players anonymized as A to F
+All model metadata logged (model name, version, temperature, timestamp)
+Null and non significant findings reported accurately
+Designed for transparency and reproducibility
+
+Final Report
+A full academic writeup is provided in:
+Report_Nov15.md
+This includes methodology, results, effect sizes, visualizations, bias catalogue, limitations, and future work.
+
+Contact
+For questions or improvements:
+GitHub: Austin-Rodrigues

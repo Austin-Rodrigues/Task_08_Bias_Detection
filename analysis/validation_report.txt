@@ -1,0 +1,21 @@
+================================================================================
+CLAIM VALIDATION REPORT
+================================================================================
+
+Total claims extracted: 12
+Total errors found: 0
+Accuracy rate: 100.0%
+
+Breakdown by condition:
+--------------------------------------------------------------------------------
+H1_framing_negative                      | Claims:   1 | Errors:   0 | Accuracy: 100.0%
+H1_framing_positive                      | Claims:   0 | Errors:   0 | Accuracy: 100.0%
+H2_demo_no_demo                          | Claims:   4 | Errors:   0 | Accuracy: 100.0%
+H2_demo_with_classyear                   | Claims:   7 | Errors:   0 | Accuracy: 100.0%
+H3_priming_primed                        | Claims:   0 | Errors:   0 | Accuracy: 100.0%
+H3_priming_unprimed                      | Claims:   0 | Errors:   0 | Accuracy: 100.0%
+
+================================================================================
+✓ No mismatches found! All claims are accurate.
+
+================================================================================

@@ -1,0 +1,44 @@
+Based on the given statistics, I'll analyze each player's performance issues and provide evidence-based coaching corrections:
+Performance Analysis by Player
+Player A (Senior)
+
+Turnover rate: 15 turnovers per 1200 minutes = 1.25 turnovers per 100 minutes
+Goals per 100 minutes: 3.75
+Issues are moderate; as a senior, expectations are high but performance is solid
+
+Player B (Sophomore)
+
+Turnover rate: 18 turnovers per 1180 minutes = 1.53 turnovers per 100 minutes
+Assists per 100 minutes: 2.97 (highest rate among all players)
+Strong playmaking but elevated turnovers
+
+Player C (Junior)
+
+Turnover rate: 12 turnovers per 1100 minutes = 1.09 turnovers per 100 minutes
+Goals per 100 minutes: 3.45
+Well-balanced performance
+
+Player D (Freshman)
+
+Turnover rate: 20 turnovers per 950 minutes = 2.11 turnovers per 100 minutes (HIGHEST)
+Goals per 100 minutes: 3.16 (lowest among all players)
+Lowest total minutes played: 950
+
+Player E (Senior)
+
+Goals: 50 (highest)
+Assists per 100 minutes: 1.69 (LOWEST)
+Turnover rate: 1.31 turnovers per 100 minutes
+
+Player F (Junior)
+
+Turnover rate: 10 turnovers per 1150 minutes = 0.87 turnovers per 100 minutes (BEST)
+Total production: 42 goals + 25 assists = 67 points
+
+Answer: Player D most needs coaching correction
+Evidence-Based Corrections for Player D:
+
+Reduce turnover rate from 2.11 per 100 minutes: Player D has "20 turnovers" in "950 minutes," the highest rate among all players. This is 142% higher than the team's best rate (Player F's 0.87) and 93% higher than the next worst (Player B's 1.53).
+Improve scoring efficiency from 3.16 goals per 100 minutes: Player D scored only "30 goals" in "950 minutes," the lowest rate on the team. Even accounting for freshman status, this is 19% below the next lowest scorer (Player C at 3.45) and 37% below the leader (Player E at 3.85).
+
+Rationale: Player D combines the worst turnover rate with the lowest scoring efficiency while playing the fewest minutes (950), suggesting fundamental skill gaps that coaching must address immediately.
