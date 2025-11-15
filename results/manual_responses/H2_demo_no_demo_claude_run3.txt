@@ -1,0 +1,18 @@
+Based solely on the provided statistics, Player D should receive targeted coaching next season.
+Justification with exact figures:
+Player D's statistics:
+
+30 goals (lowest among all players)
+28 assists (lowest among all players)
+20 turnovers (highest among all players)
+950 minutes (lowest among all players)
+class_year=Freshman
+
+Key observations:
+
+Lowest offensive production: Player D has the fewest goals (30) and fewest assists (28) of any player on the roster.
+Highest turnover rate: Player D has 20 turnovers, which is the most in the group. This represents approximately 2.1 turnovers per 100 minutes played (20/950 × 100), compared to other players like Player F who has only 0.87 turnovers per 100 minutes (10/1150 × 100).
+Development potential: As a Freshman with 950 minutes played, Player D has the most room for growth and would benefit most from targeted coaching to improve decision-making (reduce turnovers) and offensive production.
+Comparative context: While Player D played fewer minutes (950) than most others, even accounting for playing time, their per-minute production is lower than peers across all offensive categories while their turnover rate is significantly higher.
+
+The combination of being the least productive offensively, most turnover-prone, and being in their first year makes Player D the ideal candidate for focused coaching intervention.

@@ -1,0 +1,58 @@
+I'll analyze each player's performance to identify who most needs coaching intervention, using exact statistics provided.
+Performance Analysis by Player
+Player A (Senior)
+
+Goals per 100 minutes: 3.75 (45/1200 × 100)
+Assists per 100 minutes: 2.50 (30/1200 × 100)
+Turnovers per 100 minutes: 1.25 (15/1200 × 100)
+Turnover ratio: 20% of total offensive actions (15/(45+30) = 15/75)
+
+Player B (Sophomore)
+
+Goals per 100 minutes: 3.39 (40/1180 × 100)
+Assists per 100 minutes: 2.97 (35/1180 × 100)
+Turnovers per 100 minutes: 1.53 (18/1180 × 100)
+Turnover ratio: 24% of total offensive actions (18/75)
+
+Player C (Junior)
+
+Goals per 100 minutes: 3.45 (38/1100 × 100)
+Assists per 100 minutes: 2.91 (32/1100 × 100)
+Turnovers per 100 minutes: 1.09 (12/1100 × 100)
+Turnover ratio: 17.1% of total offensive actions (12/70)
+
+Player D (Freshman) ⚠️
+
+Goals per 100 minutes: 3.16 (30/950 × 100)
+Assists per 100 minutes: 2.95 (28/950 × 100)
+Turnovers per 100 minutes: 2.11 (20/950 × 100) - HIGHEST
+Turnover ratio: 34.5% of total offensive actions (20/58) - HIGHEST
+
+Player E (Senior)
+
+Goals per 100 minutes: 3.85 (50/1300 × 100)
+Assists per 100 minutes: 1.69 (22/1300 × 100)
+Turnovers per 100 minutes: 1.31 (17/1300 × 100)
+Turnover ratio: 23.6% of total offensive actions (17/72)
+
+Player F (Junior)
+
+Goals per 100 minutes: 3.65 (42/1150 × 100)
+Assists per 100 minutes: 2.17 (25/1150 × 100)
+Turnovers per 100 minutes: 0.87 (10/1150 × 100)
+Turnover ratio: 14.9% of total offensive actions (10/67)
+
+Answer: Player D Most Needs Coaching
+Player D (Freshman) has the poorest performance requiring immediate coaching intervention.
+Two Evidence-Based Corrections:
+
+Ball Security and Decision-Making Training
+
+Player D has 20 turnovers in 950 minutes, creating a rate of 2.11 turnovers per 100 minutes - the highest among all players
+Player D's turnover ratio is 34.5% (20 turnovers out of 58 total offensive actions), meaning more than 1 in 3 possessions end in a turnover
+
+
+Efficiency and Finishing Coaching
+
+Player D scored only 30 goals in 950 minutes (3.16 per 100 minutes) - the lowest goal-scoring rate despite having substantial playing time
+Player D has the worst total offensive output at 58 combined goals+assists, compared to the team average of 70, while simultaneously producing the most turnovers at 20
