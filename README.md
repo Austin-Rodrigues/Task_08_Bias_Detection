@@ -2,7 +2,6 @@
 
 This repository contains a complete, reproducible controlled experiment designed to measure bias in Large Language Models (LLMs). The project evaluates how prompt framing, demographic cues, and hypothesis priming influence model-generated narratives when interpreting identical numerical data.
 
-This work was completed as part of the Applied Data Science Internship, Fall 2025.
 
 ---
 
@@ -66,16 +65,12 @@ Factual Accuracy
 │ ├── figures/
 ├── Report_Nov15.md # Full detailed report
 └── README.md
-
-yaml
-Copy code
-
 ---
 
 # How to Run the Experiment
 
 ### 1. Create Virtual Environment
-```bash
+
 python -m venv .venv
 .venv\Scripts\activate   # Windows
 source .venv/bin/activate  # Mac or Linux
@@ -121,11 +116,11 @@ Ethics and Compliance
 No personally identifiable information included
 Players anonymized as A to F
 All model metadata logged (model name, version, temperature, timestamp)
-Null and non significant findings reported accurately
+Null and non-significant findings were reported accurately
 Designed for transparency and reproducibility
 
 Final Report
-A full academic writeup is provided in:
+A full academic write-up is provided in:
 Report_Nov15.md
 This includes methodology, results, effect sizes, visualizations, bias catalogue, limitations, and future work.
 
