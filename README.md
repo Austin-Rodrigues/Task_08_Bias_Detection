@@ -47,26 +47,6 @@ Factual Accuracy
 
 ---
 
-# Repository Structure
-
-├── prompts/ # Prompt templates for all conditions
-├── src/
-│ ├── experiment_design.py # Builds prompt suite
-│ ├── run_experiment.py # Runs experiment (simulated or real API)
-│ ├── analyze_bias.py # Sentiment, polarity, length, mention analysis
-│ ├── validate_claims.py # Hallucination detection
-│ ├── create_visualizations.py # Generates plots
-├── data/ # Local anonymized CSV (ignored by git)
-├── results/ # Raw JSONL responses
-├── analysis/ # Scored outputs, summaries, plots
-│ ├── summary_by_condition.csv
-│ ├── all_runs_scored.csv
-│ ├── validation_report.txt
-│ ├── figures/
-├── Report_Nov15.md # Full detailed report
-└── README.md
----
-
 # How to Run the Experiment
 
 ### 1. Create Virtual Environment
